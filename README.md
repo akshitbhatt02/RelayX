@@ -35,7 +35,7 @@ RelayX runs a small Python web server on your Mac. Any device on the same Wi-Fi 
    uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 5. On another device connected to the same Wi-Fi, open a browser and go to: 
-'http://<your-local-ip>:8000'
+`http://<your-local-ip>:8000`
 ## Roadmap
 
 - [ ] Two-way file transfer (download files back to phone)
